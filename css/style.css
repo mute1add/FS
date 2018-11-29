@@ -405,7 +405,7 @@ body {
 .no-circle-text{
     width: 3vw!important;
     position: absolute;
-    top: 0;
+    top: -1vw;
 }
 .no-circle{
     width: 3vw!important;
@@ -480,8 +480,8 @@ body {
 
     .drop-block {
         display: none;
-        width: 20vw;
-        height: 18vw;
+       width: 20vw;
+    height: 28vw;
         background: url(../img/hover-block.png);
         /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
         background-size: cover;
@@ -493,7 +493,7 @@ body {
         position: absolute;
         align-items: center;
         z-index: -1;
-        bottom: 12vw;
+        bottom: 10vw;
         border-radius: 39px;
     }
 
