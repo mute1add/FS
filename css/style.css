@@ -387,7 +387,6 @@ body {
         font-size: 1.2vw;
         margin-top: .2vw;
         font-weight: 600;
-        color: rgb(149, 149, 149);
         margin-left: 1vw;
         margin-right: 1vw;
 
@@ -395,6 +394,9 @@ body {
 
     .drop-block p{
         margin-bottom: 2.8vw;
+        text-align: left;
+        font-size: 1.4vw;
+        color: black;
     }
 
     .right-side img {
@@ -478,12 +480,12 @@ body {
 
     .drop-block {
         display: none;
-        width: 15vw;
+        width: 20vw;
         height: 18vw;
         background: url(../img/hover-block.png);
         /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
         background-size: cover;
-        max-width: 16vw;
+        max-width: 20vw;
         bottom: -30vh;
         min-height: 46vh;
         justify-content: center;
@@ -672,13 +674,15 @@ body {
 
     .main-bubl img {
         position: absolute;
-        /* width: 30vw; */
-        width: 55%;
-        top: -4vh;
-        height: 120%;
+        /*width: 25vw;*/
+        /* width: 55%; */
+        bottom: -4vw;
+        top: -4vw;
+        /* height: 120%; */
         left: 10vw;
         right: 10vw;
         object-fit: unset;
+        /*height: 25vw;*/
     }
 
     .main-bubl {
