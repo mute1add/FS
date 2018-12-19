@@ -379,6 +379,10 @@ body {
         width: 62vw;
         margin-top: 1vw;
     }
+    .main-bubl img{
+     width: 60%;
+        height 120%;
+    }
 
     .circle-element p {
         width: 17vw;
