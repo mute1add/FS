@@ -389,6 +389,10 @@ body {
         width: 62vw;
         margin-top: 1vw;
     }
+    .main-bubl img{
+     width: 60%;
+        height 120%;
+    }
 
     .circle-element p {
         width: 17vw;
@@ -397,7 +401,7 @@ body {
         font-size: 1.2vw;
         margin-top: .2vw;
         font-weight: 600;
-        margin-left: 1vw;
+        margin-left: 1.5vw;
         margin-right: 1vw;
 
     }
@@ -421,6 +425,7 @@ body {
     width: 3vw!important;
     position: absolute;
     top: -2vh;
+
 }
 .no-circle{
     width: 3vw!important;
@@ -495,8 +500,8 @@ body {
 
     .drop-block {
         display: none;
-        width: 20vw;
-        height: 18vw;
+       width: 20vw;
+    height: 28vw;
         background: url(../img/hover-block.png);
         /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
         background-size: cover;
@@ -508,7 +513,7 @@ body {
         position: absolute;
         align-items: center;
         z-index: -1;
-        bottom: 12vw;
+        bottom: 9vw;
         border-radius: 39px;
     }
 
