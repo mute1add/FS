@@ -3,7 +3,10 @@ body {
     font-family: 'Open Sans';
     overflow-x: hidden;
 }
-
+@font-face {
+    font-family: Calibri;
+    src: url("../v1/css/fonts/Calibri.ttf") format('ttf');
+}
 @media screen and (min-width: 769px) {
     .mobile {
         display: none;
@@ -368,6 +371,13 @@ body {
         color: rgb(80, 80, 80);
     }
 
+    .main-bubl img{
+        width: 70%;
+        height: 120%;
+        top: -2vw;
+
+    }
+
     .From p {
         color: rgb(149, 149, 149);
         text-align: center;
@@ -392,11 +402,16 @@ body {
 
     }
 
+
+
     .drop-block p{
-        margin-bottom: 2.8vw;
+        margin-bottom: 6.8vw;
         text-align: left;
-        font-size: 1.4vw;
+        font-size: 1.2vw;
         color: black;
+        padding: 1.5vw;
+        margin-top: 1.4vw;
+        letter-spacing: 0.02vw;
     }
 
     .right-side img {
@@ -405,7 +420,7 @@ body {
 .no-circle-text{
     width: 3vw!important;
     position: absolute;
-    top: 0;
+    top: -2vh;
 }
 .no-circle{
     width: 3vw!important;
@@ -605,7 +620,7 @@ body {
 
     .about-section {
         width: 100vw;
-        height: 40vh;
+        height: 45vh;
         display: flex;
         justify-content: center;
         /* flex-direction: column; */
@@ -644,17 +659,24 @@ body {
     }
 
     .text-section-2 h1 {
-        font-size: 2.375vw;
-        color: rgb(80, 80, 80);
         margin-top: 1vw;
         padding-left: 2vw;
+        font-size: 2.2vw;
+
+        font-family: "Calibri";
+        color: rgb(50, 50, 50);
+        font-weight: bold;
+        line-height: 0.595;
+        text-align: left;
+    }
     }
 
     .text-section-2 p {
         font-size: 1.5vw;
         width: 45vw;
-        color: rgb(149, 149, 149);
         padding-left: 2vw;
+        font-family: "Calibri";
+        color: rgb(103, 103, 103);
     }
 
     .bubl {
@@ -667,7 +689,7 @@ body {
 
     .animation {
         width: 47vw;
-        height: 39vh;
+        height: 44vh;
         background: #f1fff1;
         position: relative;
     }
@@ -677,9 +699,8 @@ body {
         /*width: 25vw;*/
         /* width: 55%; */
         bottom: -4vw;
-        top: -4vw;
         /* height: 120%; */
-        left: 10vw;
+        left: 8vw;
         right: 10vw;
         object-fit: unset;
         /*height: 25vw;*/
@@ -801,22 +822,26 @@ body {
         background-image: url(../img/title1.png);
         display: flex;
         align-items: center;
+        background-repeat: no-repeat;
         background-size: cover;
         width: 48.6vw;
         margin-top: 1vw;
         margin-left: 1vw;
         margin-top: 4.9vw;
-        height: 5.4vw;
+        height: 6.4vw;
+        /* box-shadow: 1px 1px 5px black; */
+        /* box-shadow: unset; */
+        background-position: center;
     }
 
     .number-block h1 {
-        font-size: 1.4vw;
+        font-size: 1.5vw;
         color: rgb(80, 80, 80);
         padding-left: -15px;
-        margin-left: 5vw;
+        margin-left: 4vw;
         padding-left: 30px;
         /* background: red; */
-        padding-top: 1vw;
+        padding-top: .2vw;
         padding-bottom: 1vw;
         padding-right: 1vw;
         width: auto;
@@ -1013,7 +1038,7 @@ body {
     }
 
     hr {
-        height: 10px;
+        height: 5px;
         background-color: #00a2e8;
         border: none;
     }
@@ -1029,10 +1054,10 @@ body {
         /* margin-left: 1vw; */
         /* width: 26vw; */
         /* height: 10vw; */
-        padding-top: 1vw;
-        padding-bottom: 1vw;
-        padding-left: 1vw;
-        padding-right: 0vw;
+        padding-top: 1.3vw;
+        padding-bottom: 1.3vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
         width: 20vw;
         font-size: 1.3vw;
         font-weight: bold;
@@ -1048,7 +1073,7 @@ body {
 
     .section-5 {
         width: 100vw;
-        height: 100vh;
+        height: 150vh;
         display: flex;
         position: relative;
         flex-direction: column;
@@ -1060,16 +1085,16 @@ body {
     }
 
     .section-5-border {
-        background-image: url("../img/section5border.png");
-        width: 50vw;
-        height: 30vh;
+        background-image: url(../img/section5border.png);
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 70vw;
+        width: 80vw;
         height: 40vh;
+        margin-top: 7vw;
+
 
     }
 
@@ -1081,21 +1106,38 @@ body {
         align-items: center;
     }
 
-    .brightum-sect p {
-        font-size: 1.5vw;
+    .brightum-sect h1 {
+        color: rgb(0, 0, 0);
         font-weight: bold;
-        margin-top: .95vw;
+        font-family: "Calibri";
+        font-size: 3.3vw;
+        font-weight: bold;
+        margin-top: .11vw;
+        letter-spacing: 0.03vw;
     }
 
     .age-section {
         display: flex;
         justify-content: center;
     }
+.The_age_defying_essence_of_marine_glycobiology_ {
+    font-size: 42px;
 
-    .age-section {
-        font-size: 1.5vw;
+    position: absolute;
+    left: 624px;
+    top: 165.731px;
+    width: 470px;
+    height: 77px;
+    z-index: 6;
+}
+
+    .age-section p {
+        font-size: 2.4vw;
         font-weight: bold;
-        color: white;
+        line-height: 1;
+        margin-top: .95vw;
+        font-family: "Calibri";
+        color: rgb(255, 255, 255);
     }
 
     .ldBar-label {
@@ -1154,15 +1196,21 @@ body {
     }
 
     .text-section-5 h1 {
-        font-size: 2.375vw;
-        color: rgb(80, 80, 80);
         margin-top: 1vw;
+        font-size: 2.2vw;
+        font-family: "Calibri";
+        color: rgb(50, 50, 50);
+        font-weight: bold;
+        line-height: 2.2vw;
+        text-align: left;
+        width: 45vw;
     }
 
     .text-section-5 p {
-        font-size: 1.3vw;
-        width: 50vw;
-        color: rgb(149, 149, 149);
+        font-size: 1.5vw;
+        width: 45vw;
+        font-family: "Calibri";
+        color: rgb(103, 103, 103);
     }
 
     .photo-6 {
