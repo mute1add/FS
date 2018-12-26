@@ -1100,6 +1100,8 @@ body {
         height: 33vh;
         align-items: flex-end;
         padding: 8vw
+        background-size: cover;
+    width: 95vw;
     }
 
     .radial-container {
