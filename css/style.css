@@ -449,7 +449,7 @@ body {
 
     svg.radial-progress {
         height: auto;
-        max-width: 14.38vw;
+        max-width: 11.18vw;
         padding: 1em;
         transform: rotate(-90deg);
         width: 100%;
@@ -914,7 +914,7 @@ body {
 
     .radial-progress {
         display: flex;
-           width: 82vw;
+            width: 75vw;
         justify-content: space-between;
         padding-bottom: 3vw;
     }
