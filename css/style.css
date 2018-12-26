@@ -449,7 +449,7 @@ body {
 
     svg.radial-progress {
         height: auto;
-            max-width: 13.23vw;
+            max-width: 12.63vw;
         padding: 1em;
         transform: rotate(-90deg);
         width: 100%;
@@ -848,8 +848,8 @@ body {
     }
 
     .number-block h1 {
-        font-size: 1.3vw;
-        color: rgb(80, 80, 80);
+          font-size: 1.35vw;
+    color: rgb(0, 0, 0);
         padding-left: -15px;
         margin-left: 5vw;
         padding-left: 30px;
@@ -858,7 +858,7 @@ body {
         padding-bottom: 1vw;
         padding-right: 1vw;
         width: auto;
-        font-weight: bolder;
+        font-weight: bold;
     }
 
     .number-block em {
