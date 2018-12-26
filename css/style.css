@@ -466,7 +466,8 @@ body {
 
     svg.radial-progress text {
         text-anchor: middle;
-        font-size: .76vw;        font-weight: bolder;
+        font-size: 1.4vw;    
+        font-weight: bolder;
 
     }
 
