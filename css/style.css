@@ -1099,9 +1099,9 @@ body {
         justify-content: center;
         height: 33vh;
         align-items: flex-end;
-        padding: 8vw
+        padding: 8vw;
         background-size: cover;
-    width: 95vw;
+    width: 100vw;
     }
 
     .radial-container {
