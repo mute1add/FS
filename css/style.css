@@ -910,7 +910,7 @@ body {
 
     .radial-progress {
         display: flex;
-        width: 75vw;
+           width: 82vw;
         justify-content: space-between;
         padding-bottom: 3vw;
     }
