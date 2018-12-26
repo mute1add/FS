@@ -841,7 +841,7 @@ body {
     }
 
     .number-block h1 {
-        font-size: 1.5vw;
+        font-size: 1.3vw;
         color: rgb(80, 80, 80);
         padding-left: -15px;
         margin-left: 5vw;
@@ -851,6 +851,7 @@ body {
         padding-bottom: 1vw;
         padding-right: 1vw;
         width: auto;
+        font-weight: bolder;
     }
 
     .number-block em {
