@@ -1210,6 +1210,7 @@ body {
         flex-direction: column;
         align-items: center;
         height: 75vh;
+            padding-top: 5vw;
 
     }
 
