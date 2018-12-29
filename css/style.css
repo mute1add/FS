@@ -1148,7 +1148,7 @@ hr {
 }
 
 .brightum-sect {
-    padding-right: 20vw;
+    margin-right: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1168,6 +1168,7 @@ hr {
 .age-section {
     display: flex;
     justify-content: center;
+    margin-left: 1vw;
 }
 
 .The_age_defying_essence_of_marine_glycobiology_ {
@@ -1182,7 +1183,7 @@ hr {
 }
 
 .age-section p {
-    font-size: 2.4vw;
+    font-size: 2.8vw;
     font-weight: bold;
     line-height: 1;
     margin-top: .95vw;
