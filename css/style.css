@@ -640,6 +640,10 @@ body {
         justify-content: center;
         margin-top: 10vh;
     }
+    .section-3 hr {
+        margin-top: 2vw;
+
+    }
 
     .about-section {
         width: 100vw;
@@ -1221,6 +1225,7 @@ hr {
     width: 100vw;
     display: flex;
     justify-content: center;
+    margin-block-start: 0.67em;
 }
 
 .section-6 {
@@ -1240,6 +1245,7 @@ hr {
     justify-content: center;
     position: relative;
     padding-left: 6vw;
+    margin-top: 1.5vw;
 }
 
 .text-section-5 h1 {
