@@ -381,10 +381,7 @@ body {
     }
 
     .main-bubl img {
-        width: 70%;
-        height: 120%;
-        top: -2vw;
-
+        top: -6vh;
     }
 
     .From p {
@@ -399,10 +396,6 @@ body {
         margin-top: 1vw;
     }
 
-    .main-bubl img {
-        width: 60%;
-        height 120%;
-    }
 
     .circle-element p {
         width: 17vw;
@@ -621,8 +614,8 @@ body {
     /*}*/
     .section-2 {
         background-image: url(../img/section-3bg.png);
-        margin-top: 31vh;
-        margin-bottom: 14.6vh;
+        margin-top: 40vh;
+        margin-bottom: 22.6vh;
 
         display: flex;
         background-size: cover;
@@ -723,10 +716,9 @@ body {
 .main-bubl img {
     position: absolute;
     /*width: 25vw;*/
-    /* width: 55%; */
+    width: 60vh;
     bottom: -4vw;
-    /* height: 120%; */
-    left: 8vw;
+    left: 10vw;
     right: 10vw;
     object-fit: unset;
     /*height: 25vw;*/
@@ -1140,7 +1132,7 @@ hr {
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 79.1vw;
     height: 22.35vw;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
@@ -1148,42 +1140,34 @@ hr {
 }
 
 .brightum-sect {
-    margin-right: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+.brightum-sect img{
+width: 11.5vw;
+}
 .brightum-sect h1 {
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: "Calibri";
-    font-size: 3.3vw;
+    font-size: 2.3vw;
     font-weight: bold;
     margin-top: .11vw;
     letter-spacing: 0.03vw;
+
 }
 
 .age-section {
     display: flex;
     justify-content: center;
-    margin-left: 1vw;
-}
-
-.The_age_defying_essence_of_marine_glycobiology_ {
-    font-size: 42px;
-
-    position: absolute;
-    left: 624px;
-    top: 165.731px;
-    width: 470px;
-    height: 77px;
-    z-index: 6;
+    margin-right: 1vw;
+    margin-left: 23vw;
 }
 
 .age-section p {
-    font-size: 2.8vw;
+    font-size: 2.65vw;
     font-weight: bold;
     line-height: 1;
     margin-top: .95vw;
@@ -1283,7 +1267,7 @@ hr {
 }
 
 .first-radial {
-    font-size: 1.2vw;;
+    font-size: 1.3vw;
     text-align: center;
 }
 
