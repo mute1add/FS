@@ -1,21 +1,21 @@
 $(document).ready(function () {
-    // $(".dropdown-btn").on("click", function () {
-    //     var dropdown = $(".dropdown-content");
-    //     if ($(".mobile").css("display") == "none") {
-    //         dropdown.fadeToggle();
-    //     } else {
-    //         if (dropdown.css("display") == "none") {
-    //             dropdown.css({"display": "block"});
-    //             dropdown.animate({"right": "0"}, 500);
-    //         } else {
-    //             dropdown.animate({"right": "-350px"}, 500, function () {
-    //                 dropdown.css({"display": "none"});
-    //             });
-    //         }
-    //     }
-    //
-    //
-    // });
+    $(".dropdown-btn").on("click", function () {
+        var dropdown = $(".dropdown-content");
+        if ($(".mobile").css("display") == "none") {
+            dropdown.fadeToggle();
+        } else {
+            if (dropdown.css("display") == "none") {
+                dropdown.css({"display": "block"});
+                dropdown.animate({"right": "0"}, 500);
+            } else {
+                dropdown.animate({"right": "-350px"}, 500, function () {
+                    dropdown.css({"display": "none"});
+                });
+            }
+        }
+    
+    
+    });
     //new WOW().init();
     // var offset = 600;
     // $(window).scroll(function(){
