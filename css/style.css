@@ -396,7 +396,6 @@ body {
         margin-top: 1vw;
     }
 
-
     .circle-element p {
         width: 17vw;
         display: block;
@@ -633,6 +632,7 @@ body {
         justify-content: center;
         margin-top: 10vh;
     }
+
     .section-3 hr {
         margin-top: 2vw;
 
@@ -681,7 +681,7 @@ body {
     .text-section-2 h1 {
         margin-top: 1vw;
         padding-left: 2vw;
-        font-size: 2.5vw;
+        font-size: 2.2vw;
         font-family: "Calibri";
         color: rgb(50, 50, 50);
         font-weight: bold;
@@ -691,7 +691,7 @@ body {
 }
 
 .text-section-2 p {
-    font-size: 1.7vw;
+    font-size: 1.4vw;
     width: 51vw;
     padding-left: 2vw;
     font-family: "Calibri";
@@ -1145,14 +1145,16 @@ hr {
     justify-content: center;
     align-items: center;
 }
-.brightum-sect img{
-width: 11.5vw;
+
+.brightum-sect img {
+    width: 12.5vw;
 }
+
 .brightum-sect h1 {
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: "Calibri";
-    font-size: 2.3vw;
+    font-size: 2.6vw;
     font-weight: bold;
     margin-top: .11vw;
     letter-spacing: 0.03vw;
@@ -1162,8 +1164,8 @@ width: 11.5vw;
 .age-section {
     display: flex;
     justify-content: center;
-    margin-right: 1vw;
-    margin-left: 23vw;
+    margin-right: 6vw;
+    margin-left: 20vw;
 }
 
 .age-section p {
