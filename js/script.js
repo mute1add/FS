@@ -16,7 +16,7 @@ $(document).ready(function () {
     //
     //
     // });
-    new WOW().init();
+    //new WOW().init();
     // var offset = 600;
     // $(window).scroll(function(){
     //     var scrolltop = $(this).scrollTop();
