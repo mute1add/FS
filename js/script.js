@@ -16,16 +16,27 @@ $(document).ready(function () {
     
     
     });
-//     new WOW().init();
-    // var offset = 600;
-    // $(window).scroll(function(){
-    //     var scrolltop = $(this).scrollTop();
-    //     $('.progres1').each(function(){
-    //         if(scrolltop >= $(this).offset().top - offset) {
-    //             $(this).addClass('tox-progress');
-    //         }
-    //     });
-    // });
+   window.onclick = function (event) {
+        if (!(event.target.matches('.dropdown-btn')
+            || event.target.matches(".heart-icon")
+            || event.target.matches(".dropdown-content")
+            || event.target.matches(".dropdown-content-share-it")
+            || event.target.matches(".dropdown-content-subscribe, .dropdown-content-subscribe h2, .dropdown-content-subscribe p, .dropdown-content-subscribe input, .dropdown-content-subscribe button")
+            || event.target.matches(".dropdown-content div, .dropdown-content a")
+            || event.target.matches(".share-it-icons"))) {
+            var dropdown = $(".dropdown-content");
+            if ($(".mobile").css("display") == "none") {
+                dropdown.fadeOut();
+            } else {
+                if (dropdown.css("display") == "block") {
+                    dropdown.animate({ "right": "-350px" }, 1000, function () {
+                        dropdown.css({ "display": "none" });
+                    });
+                }
+            }
+        }
+    }
+
     let prevDropOpened = null;
     $(".circle-elements").on("click", function (event) {
         console.log(event.target);
@@ -89,26 +100,26 @@ $(document).ready(function () {
     //
     // });
 
-    window.onclick = function (event) {
-        if (!(event.target.matches('.dropdown-btn')
-            || event.target.matches(".heart-icon")
-            || event.target.matches(".dropdown-content")
-            || event.target.matches(".dropdown-content-share-it")
-            || event.target.matches(".dropdown-content-subscribe, .dropdown-content-subscribe h2, .dropdown-content-subscribe p, .dropdown-content-subscribe input, .dropdown-content-subscribe button")
-            || event.target.matches(".dropdown-content div, .dropdown-content a")
-            || event.target.matches(".share-it-icons"))) {
-            var dropdown = $(".dropdown-content");
-            if ($(".mobile").css("display") == "none") {
-                dropdown.fadeOut();
-            } else {
-                if (dropdown.css("display") == "block") {
-                    dropdown.animate({"right": "-350px"}, 1000, function () {
-                        dropdown.css({"display": "none"});
-                    });
-                }
-            }
-        }
-    }
+//     window.onclick = function (event) {
+//         if (!(event.target.matches('.dropdown-btn')
+//             || event.target.matches(".heart-icon")
+//             || event.target.matches(".dropdown-content")
+//             || event.target.matches(".dropdown-content-share-it")
+//             || event.target.matches(".dropdown-content-subscribe, .dropdown-content-subscribe h2, .dropdown-content-subscribe p, .dropdown-content-subscribe input, .dropdown-content-subscribe button")
+//             || event.target.matches(".dropdown-content div, .dropdown-content a")
+//             || event.target.matches(".share-it-icons"))) {
+//             var dropdown = $(".dropdown-content");
+//             if ($(".mobile").css("display") == "none") {
+//                 dropdown.fadeOut();
+//             } else {
+//                 if (dropdown.css("display") == "block") {
+//                     dropdown.animate({"right": "-350px"}, 1000, function () {
+//                         dropdown.css({"display": "none"});
+//                     });
+//                 }
+//             }
+//         }
+//     }
     // $(".section-1-text").cycle({
     //     timeout: 1
     // });
@@ -239,89 +250,89 @@ $(document).ready(function () {
 
     // objectFitVideos(document.querySelectorAll('.videos'));
 
-    setInterval(function () {
-        $(".slickPrev").slick("slickPrev");
-    }, 2000);
-    // window.setInterval(function(){$('button').trigger('click');}, 1000);
+//     setInterval(function () {
+//         $(".slickPrev").slick("slickPrev");
+//     }, 2000);
+//     // window.setInterval(function(){$('button').trigger('click');}, 1000);
 
 
-    $.each($(".bubbles-right"), function () {
-        var bubblecount = ($(this).width() / 100) * 5;
-        for (var i = 0; i <= bubblecount; i++) {
-            var size = ((Math.random() * 40 + 40) / 4);
-            $(this).append('<span class="particle-r" style="top:' + (Math.random() * 30 + 65) + '%; left:' + (Math.random() * 50 + 20) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
-        }
-    });
-    $.each($(".bubbles-left"), function () {
-        var bubblecount = ($(this).width() / 100) * 5;
-        for (var i = 0; i <= bubblecount; i++) {
-            var size = ((Math.random() * 40 + 40) / 4);
-            $(this).append('<span class="particle-l" style="top:' + (Math.random() * 30 + 65) + '%; left:' + (Math.random() * 50 + 20) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
-        }
-    });
-    $.each($(".desktop .board-bubbles-right"), function () {
-        var bubblecount = 5;
-        for (var i = 0; i <= bubblecount; i++) {
-            var size = ((Math.random() * 40 + 40) / 2);
-            $(this).append('<span class="particle-ll" style="top:' + (Math.random() * 30 + 70) + '%; left:' + (Math.random() * 30 - 40) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
-        }
-    });
-    $.each($(".desktop .board-bubbles-left"), function () {
-        var bubblecount = ($(this).width() / 100) / 2;
-        for (var i = 0; i <= bubblecount; i++) {
-            var size = ((Math.random() * 40 + 40) / 2);
-            $(this).append('<span class="particle-rr" style="top:' + (Math.random() * 30 + 70) + '%; left:' + (Math.random() * 30 + 100) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
-        }
-    });
+//     $.each($(".bubbles-right"), function () {
+//         var bubblecount = ($(this).width() / 100) * 5;
+//         for (var i = 0; i <= bubblecount; i++) {
+//             var size = ((Math.random() * 40 + 40) / 4);
+//             $(this).append('<span class="particle-r" style="top:' + (Math.random() * 30 + 65) + '%; left:' + (Math.random() * 50 + 20) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
+//         }
+//     });
+//     $.each($(".bubbles-left"), function () {
+//         var bubblecount = ($(this).width() / 100) * 5;
+//         for (var i = 0; i <= bubblecount; i++) {
+//             var size = ((Math.random() * 40 + 40) / 4);
+//             $(this).append('<span class="particle-l" style="top:' + (Math.random() * 30 + 65) + '%; left:' + (Math.random() * 50 + 20) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
+//         }
+//     });
+//     $.each($(".desktop .board-bubbles-right"), function () {
+//         var bubblecount = 5;
+//         for (var i = 0; i <= bubblecount; i++) {
+//             var size = ((Math.random() * 40 + 40) / 2);
+//             $(this).append('<span class="particle-ll" style="top:' + (Math.random() * 30 + 70) + '%; left:' + (Math.random() * 30 - 40) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
+//         }
+//     });
+//     $.each($(".desktop .board-bubbles-left"), function () {
+//         var bubblecount = ($(this).width() / 100) / 2;
+//         for (var i = 0; i <= bubblecount; i++) {
+//             var size = ((Math.random() * 40 + 40) / 2);
+//             $(this).append('<span class="particle-rr" style="top:' + (Math.random() * 30 + 70) + '%; left:' + (Math.random() * 30 + 100) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
+//         }
+//     });
 
-    $.each($(".mobile .board-bubbles-right"), function () {
-        var bubblecount = 4;
-        for (var i = 0; i <= bubblecount; i++) {
-            var size = ((Math.random() * 40 + 40) / 4);
-            $(this).append('<span class="particle-ll" style="top:' + (Math.random() * 30 + 70) + '%; left:' + (Math.random() * 30 - 34) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
-        }
-    });
-    $.each($(".mobile .board-bubbles-left"), function () {
-        var bubblecount = 3;
-        for (var i = 0; i <= bubblecount; i++) {
-            var size = ((Math.random() * 40 + 40) / 4);
-            $(this).append('<span class="particle-rr" style="top:' + (Math.random() * 30 + 70) + '%; left:' + (Math.random() * 7 + 100) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
-        }
-    });
+//     $.each($(".mobile .board-bubbles-right"), function () {
+//         var bubblecount = 4;
+//         for (var i = 0; i <= bubblecount; i++) {
+//             var size = ((Math.random() * 40 + 40) / 4);
+//             $(this).append('<span class="particle-ll" style="top:' + (Math.random() * 30 + 70) + '%; left:' + (Math.random() * 30 - 34) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
+//         }
+//     });
+//     $.each($(".mobile .board-bubbles-left"), function () {
+//         var bubblecount = 3;
+//         for (var i = 0; i <= bubblecount; i++) {
+//             var size = ((Math.random() * 40 + 40) / 4);
+//             $(this).append('<span class="particle-rr" style="top:' + (Math.random() * 30 + 70) + '%; left:' + (Math.random() * 7 + 100) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
+//         }
+//     });
 
-    var bubblecount, topPos, randomMax, posName, maxLeft;
-    if ($(".desktop").css("display") == "none") {
-        bubblecount = ($(".section-1").width() / 10);
-        topPos = 12;
-        randomMax = 88;
-        maxLeft = 80;
-        posName = "vh";
-    } else {
-        bubblecount = ($(".section-1").width() / 100) / 1.3;
-        topPos = 6;
-        randomMax = 40;
-        maxLeft = 100;
-        posName = "vw";
-    }
-    for (var i = 0; i <= bubblecount; i++) {
-        var sizeBlue = ((Math.random() * randomMax + 40) / 2);
-        var sizeGreen = ((Math.random() * randomMax + 40) / 2);
-        $(".section-1").append('<span class="particle-blue" style="top:' + (Math.random() * randomMax + topPos) + posName + '; left:' + (Math.random() * maxLeft) + '%;width:' + sizeBlue + 'px; height:' + sizeBlue + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
-        $(".section-1").append('<span class="particle-green" style="top:' + (Math.random() * randomMax + topPos) + posName + '; left:' + (Math.random() * maxLeft) + '%;width:' + sizeGreen + 'px; height:' + sizeGreen + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
-    }
-    var spoilers = $(".spoiler");
-    spoilers.each(function () {
-        var spoiler = $(this);
-        spoiler.find(".spoiler-expand-btn").click(function () {
-            if ($(this).hasClass("spoiler-open-btn")) {
-                $(this).removeClass("spoiler-open-btn").addClass("spoiler-close-btn");
-                spoiler.find(".spoiler-body").slideUp(1000);
-            } else {
-                $(this).removeClass("spoiler-close-btn").addClass("spoiler-open-btn");
-                spoiler.find(".spoiler-body").slideDown(1000);
-            }
-        });
-    });
+//     var bubblecount, topPos, randomMax, posName, maxLeft;
+//     if ($(".desktop").css("display") == "none") {
+//         bubblecount = ($(".section-1").width() / 10);
+//         topPos = 12;
+//         randomMax = 88;
+//         maxLeft = 80;
+//         posName = "vh";
+//     } else {
+//         bubblecount = ($(".section-1").width() / 100) / 1.3;
+//         topPos = 6;
+//         randomMax = 40;
+//         maxLeft = 100;
+//         posName = "vw";
+//     }
+//     for (var i = 0; i <= bubblecount; i++) {
+//         var sizeBlue = ((Math.random() * randomMax + 40) / 2);
+//         var sizeGreen = ((Math.random() * randomMax + 40) / 2);
+//         $(".section-1").append('<span class="particle-blue" style="top:' + (Math.random() * randomMax + topPos) + posName + '; left:' + (Math.random() * maxLeft) + '%;width:' + sizeBlue + 'px; height:' + sizeBlue + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
+//         $(".section-1").append('<span class="particle-green" style="top:' + (Math.random() * randomMax + topPos) + posName + '; left:' + (Math.random() * maxLeft) + '%;width:' + sizeGreen + 'px; height:' + sizeGreen + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
+//     }
+//     var spoilers = $(".spoiler");
+//     spoilers.each(function () {
+//         var spoiler = $(this);
+//         spoiler.find(".spoiler-expand-btn").click(function () {
+//             if ($(this).hasClass("spoiler-open-btn")) {
+//                 $(this).removeClass("spoiler-open-btn").addClass("spoiler-close-btn");
+//                 spoiler.find(".spoiler-body").slideUp(1000);
+//             } else {
+//                 $(this).removeClass("spoiler-close-btn").addClass("spoiler-open-btn");
+//                 spoiler.find(".spoiler-body").slideDown(1000);
+//             }
+//         });
+//     });
     $(".hamburger").click(function () {
         $(this).toggleClass("is-active");
         if ($(".menu").css("display") == "none") {
