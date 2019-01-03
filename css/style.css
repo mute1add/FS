@@ -935,7 +935,7 @@ body {
 }
 
 .plus {
-    margin-top: 1vw;
+    margin-top: 5vw;
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -1082,7 +1082,8 @@ hr {
     font-size: 1.25vw;
     font-weight: bold;
 }
-.table{
+
+.table {
     padding-left: 5vw;
 }
 
@@ -1114,9 +1115,10 @@ hr {
     justify-content: center;
     height: 33vh;
     align-items: flex-end;
-    padding: 8vw;
+    /*padding: 8vw;*/
     background-size: cover;
     width: 100vw;
+    padding-bottom: 7vh;
 }
 
 .radial-container {
@@ -1124,9 +1126,8 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 34vw;
+    height: 37vw;
     background-color: #eeeeee;
-    padding-bottom: 13vh;
 }
 
 .section-5-border {
@@ -1139,7 +1140,7 @@ hr {
     width: 79.1vw;
     height: 22.35vw;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
-    margin-bottom: 5.5vh;
+    margin-bottom: 5vh;
 }
 
 .brightum-sect {
@@ -1456,7 +1457,7 @@ li {
 }
 
 .figthun-section {
-    margin-top: 3vw;
+    margin-top: 7.5vw;
 }
 
 .know-more-btn:hover {
@@ -2470,8 +2471,10 @@ li {
     }
 
 }
-@media (max-width: 1024px)
-svg .radial-progress text {
-    transform: matrix(0,1,-1,0,78,0);
-    font-size: 1.8vw;
+
+@media (max-width: 1024px) {
+    .radial-progress text {
+        transform: matrix(0, 1, -1, 0, 78, 0);
+        font-size: 1.8vw;
+    }
 }
