@@ -29,7 +29,6 @@ body {
         justify-content: space-between;
         position: fixed;
         top: 0;
-        left: 0;
         right: 0;
         /* border-bottom: 5px solid #dcffe1; */
         -webkit-box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, 0.32);
@@ -676,13 +675,13 @@ body {
         align-items: flex-start;
         justify-content: center;
         position: relative;
-        padding-left: 2vw;
+        padding-left: 2.1vw;
     }
 
     .text-section-2 h1 {
         margin-top: 1vw;
         padding-left: 2vw;
-        font-size: 2.2vw;
+        font-size: 2.5vw;
         font-family: "Calibri";
         color: rgb(50, 50, 50);
         font-weight: bold;
@@ -692,8 +691,8 @@ body {
 }
 
 .text-section-2 p {
-    font-size: 1.4vw;
-    width: 51vw;
+    font-size: 1.6vw;
+    width: 48vw;
     padding-left: 2vw;
     font-family: "Calibri";
     color: rgb(103, 103, 103);
@@ -1240,11 +1239,11 @@ hr {
 
 .text-section-5 h1 {
     margin-top: 1vw;
-    font-size: 2.2vw;
+    font-size: 2.4vw;
     font-family: "Calibri";
     color: rgb(50, 50, 50);
     font-weight: bold;
-    line-height: 2.2vw;
+    line-height: 2.5vw;
     text-align: left;
     width: 45vw;
 }
@@ -1252,7 +1251,7 @@ hr {
 .text-section-5 p {
     font-family: "Calibri";
     color: rgb(103, 103, 103);
-    font-size: 1.45vw;
+    font-size: 1.5vw;
     width: 47vw;
 }
 
