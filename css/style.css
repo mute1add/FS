@@ -1094,6 +1094,14 @@ hr {
     font-size: 1.1vw !important;
 }
 
+.text-section-2 p {
+    font-family: "Calibri";
+    color: rgb(103, 103, 103);
+    font-size: 1.5vw;
+    width: 47vw;
+}
+
+
 .section-5 {
     width: 100vw;
     display: flex;
