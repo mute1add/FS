@@ -1109,7 +1109,7 @@ hr {
     display: flex;
     position: relative;
     flex-direction: column;
-    margin-top: 25vh;
+    margin-top: 15vh;
     align-items: center;
     justify-content: space-around;
     background: url(../img/shade-border.PNG);
