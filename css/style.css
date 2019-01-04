@@ -935,7 +935,6 @@ body {
 }
 
 .plus {
-    margin-top: 5vw;
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -1064,7 +1063,7 @@ hr {
 }
 
 .right-side span {
-    margin-top: 6vw;
+    margin-top: 6.5vw;
 }
 
 .right-side span h1 {
