@@ -343,12 +343,14 @@ body {
         padding-left: 1.5vw;
         font-size: 1.255vw;
         padding-right: .5vw;
+        padding-bottom: 2vw;
 
     }
 
     .video-content h1 {
         color: rgba(105, 216, 255, 0.81);
         font-size: 2.575vw;
+        font-weight: bold;
     }
 
     .section-1 {
@@ -1108,7 +1110,7 @@ hr {
     display: flex;
     position: relative;
     flex-direction: column;
-    margin-top: 40vh;
+    margin-top: 25vh;
     align-items: center;
     justify-content: space-around;
     background: url(../img/shade-border.PNG);
