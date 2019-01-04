@@ -1095,10 +1095,11 @@ hr {
 }
 
 .text-section-2 p {
+    font-size: 1.6vw;
+    width: 48vw;
+    padding-left: 2vw;
     font-family: "Calibri";
     color: rgb(103, 103, 103);
-    font-size: 1.5vw;
-    width: 47vw;
 }
 
 
