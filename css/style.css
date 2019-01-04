@@ -1099,6 +1099,7 @@ hr {
     padding-left: 2vw;
     font-family: "Calibri";
     color: rgb(103, 103, 103);
+    margin-block-start: 0.67em;
 }
 
 
