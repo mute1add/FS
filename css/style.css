@@ -1905,6 +1905,17 @@ body {
         height: 4px;
         margin: 10px 0px 30px 0px;
     }
+    .fass{
+        font-weight: 900;
+        margin-right: .4vw;
+        font-family: "Font Awesome 5 Free";
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
 
     .section-2-text .section-separator {
         width: 120px;
@@ -1992,7 +2003,7 @@ body {
     }
 
     .spoilers {
-        margin-top: 30px;
+        margin-top: -.3vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -2008,51 +2019,46 @@ body {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        font-size: 22px;
+        font-size: 3.4vw;
         color: rgb(80, 80, 80);
         font-weight: bold;
     }
 
     .spoiler-header-left-part {
         display: flex;
+        height: 12vh;
     }
 
     .spoiler-header-img {
         background-color: rgb(236, 236, 236);
-        padding: 20px 0 20px 10px;
+        display: flex;
     }
 
     .spoiler-img {
-        width: 100px;
-        height: 48px;
-        background-size: contain;
-        background-repeat: no-repeat;
+        width: 24vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .spoiler1-img {
-        background-image: url("../img/spoiler1_img.png");
+    .spoiler-img img {
+        width: 11vw;
+        border-radius: 50%;
+        box-shadow: 1px 1px 80px white inset;
     }
 
-    .spoiler2-img {
-        background-image: url("../img/spoiler2_img.png");
-    }
-
-    .spoiler3-img {
-        background-image: url("../img/spoiler3_img.png");
-    }
-
-    .spoiler4-img {
-        background-image: url("../img/spoiler4_img.png");
-    }
-
-    .spoiler5-img {
-        background-image: url("../img/spoiler5_img.png");
+    .spoiler-title {
+        width: 40vw;
+        margin-right: 3vw;
+        font-size: 3vw;
+        color: black;
+        font-weight: bolder;
     }
 
     .spoiler-triangle {
         width: 0;
         height: 0;
-        border-top: 88px solid rgb(236, 236, 236);
+        border-top: 12vh solid rgb(236, 236, 236);
         border-right: 50px solid transparent;
     }
 
@@ -2097,8 +2103,39 @@ body {
     .spoiler-body {
         padding: 40px 20px;
         font-size: 15px;
+        background: white;
+
     }
 
+    .right-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .graf {
+        width: 70vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .right-side h1 {
+        font-size: 3.5vw;
+        width: 67vw;
+        /* display: flex; */
+        /* justify-content: center; */
+        align-items: center;
+        background: #cceaf7;
+        text-align: center;
+        padding-top: 3.5vw;
+        padding-bottom: 3.5vw;
+
+    }
+    hr {
+        height: 5px;
+        background-color: #00a2e8;
+        border: none;
+    }
     .spoiler-body-title {
         color: #000000;
         font-weight: bold;
@@ -2114,6 +2151,13 @@ body {
 
     .spoiler-description {
         color: rgb(40, 40, 40);
+        font-size: 2.5vw;
+    }
+
+    .right-side-small {
+        font-size: 2.5vw;
+        color: black;
+        font-weight: bold;
     }
 
     .discover-btn {
@@ -2391,7 +2435,7 @@ body {
     .know-more-btn {
         margin-top: 4vw;
         margin-bottom: 11vw;
-        font-size: 14px;
+        font-size: 3vw;
         float: right;
         padding: 12px 20px;
         text-transform: uppercase;
@@ -2484,19 +2528,20 @@ body {
         height: 50vh;
     }
 
-    .first-block-mobile{
+    .first-block-mobile {
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 70vh;
+        height: 55vh;
     }
 
-    .video-content-mobile{
+    .video-content-mobile {
         background-image: url(../img/background-1.png);
         width: 100vw;
         height: 44vh;
     }
-    .info-video{
+
+    .info-video {
         padding-top: 11vh;
         padding-bottom: 7.5vh;
         background-color: white;
@@ -2508,11 +2553,13 @@ body {
         align-items: center;
         top: 12vh;
     }
-    .info-video img{
+
+    .info-video img {
         width: 25.6vw;
         margin-top: 0.4vw;
     }
-    .info-video h1{
+
+    .info-video h1 {
         font-size: 5vw;
         margin-left: -1vw;
         word-spacing: 1.1vw;
@@ -2520,7 +2567,8 @@ body {
         color: rgb(109, 177, 245);
         width: 70%;
     }
-    .info-video p{
+
+    .info-video p {
         color: #5e5e5e;
         width: 70%;
         font-size: 3.4vw;
@@ -2529,12 +2577,15 @@ body {
         margin-top: 2.8vw;
 
     }
-    .second-block-mobile{
+
+    .second-block-mobile {
         display: flex;
         flex-direction: column;
         ALIGN-ITEMS: center;
+        margin-top: 20vh;
     }
-    .third-block-mobile{
+
+    .third-block-mobile {
         width: 100vw;
         position: relative;
         display: flex;
@@ -2542,56 +2593,67 @@ body {
         align-items: center;
 
     }
-    .lines-mobile{
+
+    .lines-mobile {
         width: 100vw;
     }
-    .lines-mobile img{
+
+    .lines-mobile img {
         position: absolute;
-        left: 16.5vw!important;
-        width: 14vw!important;
+        left: 17.5vw !important;
+        width: 14vw !important;
         top: 5vh;
         z-index: -1;
+        height: 95%;
     }
-    .circle-img{
+
+    .circle-img {
         width: 77vw;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
     }
-    .circle-img img{
+
+    .circle-img img {
         width: 27vw;
     }
-    .some-text{
+
+    .some-text {
         width: 46vw;
         margin-top: 1.3vh;
     }
-    .some-text h1{
+
+    .some-text h1 {
         margin-top: 0;
         font-size: 3.5vw;
         line-height: 3.5vw;
     }
-    .some-text p{
+
+    .some-text p {
         margin-top: 0;
         font-size: 3vw;
         line-height: 3vw;
     }
-    .four-block-mobile{
+
+    .four-block-mobile {
         width: 100vw;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         margin-top: 19vh;
-        background: #d4ffe1;
+        background: #d4ffe0;
     }
-    .four-block-mobile h1{
+
+    .four-block-mobile h1 {
         width: 85vw;
         font-size: 5.5vw;
         margin-top: 6.4vh;
         line-height: 6.4vw;
 
     }
+
     .animation {
         width: 100vw;
         /* background: #ffffff; */
@@ -2620,7 +2682,7 @@ body {
     .first-bubl {
         position: absolute;
         width: 20vw;
-        bottom: 5vh;
+        bottom: 8vw;
         left: 13.4vw;
         animation-name: floating;
         animation-duration: 2.8s;
@@ -2632,7 +2694,7 @@ body {
     .secont-bubl {
         position: absolute;
         width: 8vw;
-        top: 16vh;
+        top: 19vh;
         left: 21vw;
         animation-name: floating;
         animation-duration: 2.7s;
@@ -2646,7 +2708,7 @@ body {
     .third-bubl {
         position: absolute;
         width: 9vw;
-        top: 6vh;
+        top: 20vw;
         left: 34vw;
         animation-name: floating;
         animation-duration: 2.3s;
@@ -2675,7 +2737,7 @@ body {
     .five-bubl {
         position: absolute;
         width: 16vw;
-        top: 7vh;
+        top: 17vw;
         right: 27vw;
         animation-name: floating;
         animation-duration: 2.5s;
@@ -2689,7 +2751,7 @@ body {
     .six-bubl {
         position: absolute;
         right: 16vw;
-        bottom: 16vh;
+        bottom: 30vw;
         width: 9vw;
         animation-name: floating;
         animation-duration: 4s;
@@ -2715,7 +2777,7 @@ body {
             transform: translate(0, -0px);
         }
     }
-    .about{
+    .about {
         width: 85vw;
         font-size: 3.5vw;
         line-height: 4vw;
@@ -2723,6 +2785,40 @@ body {
         color: #414641;
     }
 
+    .table {
+        width: 200%;
+    }
+
+    .five-block-mobile{
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        background: #d4ffe1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-content{
+        width: 80vw;
+        margin-top: 5vh;
+
+    }
+    .header-content h1{
+        font-size: 5vw;
+        margin: 0;
+    }
+    .header-content img{
+        width: 24vw;
+    }
+    .header-content p{
+        font-size: 3.5vw;
+    }
+    .img-section img{
+        width: 100vw;
+    }
+    .about-five{
+        font-size: 3.5vw;
+        width: 80vw;
+    }
 
 }
 
