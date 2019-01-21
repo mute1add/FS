@@ -2610,41 +2610,40 @@ body {
 
     .lines-mobile img {
         position: absolute;
-        left: 8.5vw !important;
-        width: 16vw !important;
+        left: 13.5vw !important;
+        width: 14vw !important;
         top: 5vh;
         z-index: -1;
         height: 95%;
     }
 
     .circle-img {
-        width: 100vw;
+        width: 77vw;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
 
     }
 
     .circle-img img {
-        width: 32vw;
+        width: 27vw;
     }
 
     .some-text {
-        width: 60vw;
+        width: 46vw;
         margin-top: 1.3vh;
     }
 
     .some-text h1 {
         margin-top: 0;
-        font-size: 4vw;
-        line-height: 4vw;
+        font-size: 3.5vw;
+        line-height: 3.5vw;
     }
 
     .some-text p {
         margin-top: 0;
-        font-size: 4vw;
-        color: rgb(0, 163, 232);
-        line-height: 4vw;
+        font-size: 3vw;
+        line-height: 3vw;
     }
 
     .four-block-mobile {
