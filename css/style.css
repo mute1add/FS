@@ -2035,22 +2035,26 @@ body {
     }
 
     .spoiler-img {
-        width: 24vw;
+        width: 14vw;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .spoiler-img img {
-        width: 11vw;
+        width: 14vw;
         border-radius: 50%;
         box-shadow: 1px 1px 80px white inset;
+        margin-left: 3vw;
+        position: relative;
+        margin-left: 5vw;
+
     }
 
     .spoiler-title {
-        width: 40vw;
+        width: 50vw;
         margin-right: 3vw;
-        font-size: 3vw;
+        font-size: 4vw;
         color: black;
         font-weight: bolder;
     }
@@ -2101,7 +2105,7 @@ body {
     }
 
     .spoiler-body {
-        padding: 40px 20px;
+        padding: 5px 20px;
         font-size: 15px;
         background: white;
 
@@ -2114,14 +2118,14 @@ body {
     }
 
     .graf {
-        width: 70vw;
+        width: 85vw;
         display: block;
         margin: 0 auto;
     }
 
     .right-side h1 {
-        font-size: 3.5vw;
-        width: 67vw;
+        font-size: 4.5vw;
+        width: 85vw;
         /* display: flex; */
         /* justify-content: center; */
         align-items: center;
@@ -2131,10 +2135,15 @@ body {
         padding-bottom: 3.5vw;
 
     }
+    html{
+        overflow-x: hidden;
+    }
     hr {
         height: 5px;
         background-color: #00a2e8;
         border: none;
+        margin-bottom: 7vw;
+        margin-top: 2vw;
     }
     .spoiler-body-title {
         color: #000000;
@@ -2151,11 +2160,11 @@ body {
 
     .spoiler-description {
         color: rgb(40, 40, 40);
-        font-size: 2.5vw;
+        font-size: 4vw;
     }
 
     .right-side-small {
-        font-size: 2.5vw;
+        font-size: 4vw;
         color: black;
         font-weight: bold;
     }
@@ -2542,8 +2551,8 @@ body {
     }
 
     .info-video {
-        padding-top: 11vh;
-        padding-bottom: 7.5vh;
+        padding-top: 8vh;
+        padding-bottom: 8vh;
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -2551,7 +2560,7 @@ body {
         border: 4px solid #03a3e8;
         width: 70vw;
         align-items: center;
-        top: 12vh;
+        top: 15vh;
     }
 
     .info-video img {
@@ -2560,21 +2569,21 @@ body {
     }
 
     .info-video h1 {
-        font-size: 5vw;
-        margin-left: -1vw;
+        font-size: 6vw;
         word-spacing: 1.1vw;
         letter-spacing: .05vw;
         color: rgb(109, 177, 245);
-        width: 70%;
+        width: 83%;
+        margin-left: 4vw;
     }
 
     .info-video p {
         color: #5e5e5e;
-        width: 70%;
-        font-size: 3.4vw;
-        margin-left: -1vw;
-        line-height: 4.1vw;
-        margin-top: 2.8vw;
+        width: 85%;
+        font-size: 4vw;
+        margin-left: 4vw;
+        line-height: 4.4vw;
+        margin-top: 2.8vw
 
     }
 
@@ -2582,7 +2591,8 @@ body {
         display: flex;
         flex-direction: column;
         ALIGN-ITEMS: center;
-        margin-top: 20vh;
+        margin-top: 15vh;
+        margin-bottom: 15vw;
     }
 
     .third-block-mobile {
@@ -2600,40 +2610,41 @@ body {
 
     .lines-mobile img {
         position: absolute;
-        left: 17.5vw !important;
-        width: 14vw !important;
+        left: 8.5vw !important;
+        width: 16vw !important;
         top: 5vh;
         z-index: -1;
         height: 95%;
     }
 
     .circle-img {
-        width: 77vw;
+        width: 100vw;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
 
     }
 
     .circle-img img {
-        width: 27vw;
+        width: 32vw;
     }
 
     .some-text {
-        width: 46vw;
+        width: 60vw;
         margin-top: 1.3vh;
     }
 
     .some-text h1 {
         margin-top: 0;
-        font-size: 3.5vw;
-        line-height: 3.5vw;
+        font-size: 4vw;
+        line-height: 4vw;
     }
 
     .some-text p {
         margin-top: 0;
-        font-size: 3vw;
-        line-height: 3vw;
+        font-size: 4vw;
+        color: rgb(0, 163, 232);
+        line-height: 4vw;
     }
 
     .four-block-mobile {
@@ -2642,7 +2653,7 @@ body {
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-top: 19vh;
+        margin-top: 10vh;
         background: #d4ffe0;
     }
 
@@ -2659,7 +2670,7 @@ body {
         /* background: #ffffff; */
         position: relative;
         display: flex;
-        height: 50vh;
+        height: 45vh;
         justify-content: center;
         align-items: center;
     }
@@ -2682,7 +2693,7 @@ body {
     .first-bubl {
         position: absolute;
         width: 20vw;
-        bottom: 8vw;
+        bottom: 20vw;
         left: 13.4vw;
         animation-name: floating;
         animation-duration: 2.8s;
@@ -2694,7 +2705,7 @@ body {
     .secont-bubl {
         position: absolute;
         width: 8vw;
-        top: 19vh;
+        top: 20vw;
         left: 21vw;
         animation-name: floating;
         animation-duration: 2.7s;
@@ -2708,7 +2719,7 @@ body {
     .third-bubl {
         position: absolute;
         width: 9vw;
-        top: 20vw;
+        top: 0vw;
         left: 34vw;
         animation-name: floating;
         animation-duration: 2.3s;
@@ -2722,8 +2733,8 @@ body {
 
     .four-bubl {
         position: absolute;
-        bottom: 5vw;
-        right: 22.5vw;
+        bottom: 15vw;
+        right: 18vw;
         width: 17vw;
         animation-name: floating;
         animation-duration: 3.1s;
@@ -2737,8 +2748,8 @@ body {
     .five-bubl {
         position: absolute;
         width: 16vw;
-        top: 17vw;
-        right: 27vw;
+        top: 10vw;
+        right: 24vw;
         animation-name: floating;
         animation-duration: 2.5s;
         animation-iteration-count: infinite;
@@ -2750,8 +2761,9 @@ body {
 
     .six-bubl {
         position: absolute;
-        right: 16vw;
-        bottom: 30vw;
+        right: 18vw;
+        bottom: 36vw;
+
         width: 9vw;
         animation-name: floating;
         animation-duration: 4s;
@@ -2779,14 +2791,17 @@ body {
     }
     .about {
         width: 85vw;
-        font-size: 3.5vw;
-        line-height: 4vw;
+        font-size: 4vw;
         margin-top: 8vh;
         color: #414641;
     }
 
     .table {
         width: 200%;
+    }
+
+    .img-section{
+        margin-top: 1vw;
     }
 
     .five-block-mobile{
@@ -2798,26 +2813,38 @@ body {
         flex-direction: column;
     }
     .header-content{
-        width: 80vw;
+        width: 86vw;
         margin-top: 5vh;
 
     }
     .header-content h1{
-        font-size: 5vw;
+        font-size: 6vw;
         margin: 0;
     }
     .header-content img{
-        width: 24vw;
+        width: 28vw;
     }
     .header-content p{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
     .img-section img{
         width: 100vw;
     }
     .about-five{
-        font-size: 3.5vw;
-        width: 80vw;
+        font-size: 4vw;
+        width: 86vw;
+
+    }
+    .table{
+        position: relative;
+        overflow: auto;
+    }
+    .table table{
+        width: 200%;
+    }
+    .about{
+        margin-top: 10vw;
+        margin-bottom: 15vw;
     }
 
 }
