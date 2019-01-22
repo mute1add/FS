@@ -2035,7 +2035,7 @@ body {
     }
 
     .spoiler-img {
-        width: 14vw;
+        width: 20vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2053,7 +2053,6 @@ body {
 
     .spoiler-title {
         width: 45vw;
-        margin-right: 3vw;
         font-size: 3vw;
         color: black;
         font-weight: bolder;
