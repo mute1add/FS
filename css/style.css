@@ -2035,7 +2035,7 @@ body {
     }
 
     .spoiler-img {
-        width: 20vw;
+        width: 22vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2047,7 +2047,7 @@ body {
         box-shadow: 1px 1px 80px white inset;
         margin-left: 3vw;
         position: relative;
-        margin-left: 5vw;
+        margin-left: 6vw;
 
     }
 
@@ -2594,7 +2594,7 @@ body {
     .second-block-mobile {    display: flex;
         flex-direction: column;
         ALIGN-ITEMS: center;
-        margin-top: 13vh;
+        margin-top: 9vh;
         margin-bottom: 1vw;
     }
 
@@ -2669,7 +2669,8 @@ body {
     .four-block-mobile h1 {
         width: 85vw;
         font-size: 5.5vw;
-        margin-top: 6.4vh;
+        margin-top: 7.4vh;
+
         line-height: 6.4vw;
 
     }
@@ -2851,7 +2852,7 @@ body {
         width: 200%;
     }
     .about{
-        margin-top: 10vw;
+        margin-top: 7vw;
         margin-bottom: 15vw;
     }
     #myVideo{
