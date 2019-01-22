@@ -2437,8 +2437,8 @@ body {
     }
 
     .know-more-btn {
-        margin-top: 10.5vw;
-        margin-bottom: 21vw;
+        margin-top: 8vh;
+        margin-bottom: 10vh;
         font-size: 3vw;
         float: right;
         padding: 12px 20px;
@@ -2543,6 +2543,8 @@ body {
         width: 100vw;
         height: 42.7vh;
         background: #11cbe8b0;
+        overflow: hidden;
+        position: relative;
 
     }
 
@@ -2855,8 +2857,8 @@ body {
     #myVideo{
         position: absolute;
         z-index: -2;
-        width: 100vw;
-        height: 42.7vh;
+        width: 130%;
+        height: 130%;
         object-fit: cover;
 
     }
