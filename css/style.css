@@ -2035,7 +2035,7 @@ body {
     }
 
     .spoiler-img {
-        width: 22vw;
+        width: 25vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2669,6 +2669,7 @@ body {
     }
 
     .animation {
+        margin-top: 4vh;
         width: 100vw;
         /* background: #ffffff; */
         position: relative;
