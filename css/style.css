@@ -2133,7 +2133,7 @@ body {
         height: 5px;
         background-color: #00a2e8;
         border: none;
-        margin-bottom: 25px;
+        margin-bottom: 22px;
         margin-top: 25px;
     }
     .spoiler-body-title {
@@ -2154,7 +2154,7 @@ body {
         font-size: 4vw;
         margin-top: 5vw;
         margin-bottom: 25px;
-        margin-block-end: 26px;
+        margin-block-end: 37px;
     }
 
     .right-side-small {
