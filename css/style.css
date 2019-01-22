@@ -2594,7 +2594,7 @@ body {
     .second-block-mobile {    display: flex;
         flex-direction: column;
         ALIGN-ITEMS: center;
-        margin-top: 15vh;
+        margin-top: 13vh;
         margin-bottom: 1vw;
     }
 
