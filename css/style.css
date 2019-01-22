@@ -2545,9 +2545,10 @@ body {
     }
 
     .video-content-mobile {
-        background-image: url(../img/background-1.png);
         width: 100vw;
-        height: 44vh;
+        height: 42.7vh;
+        background: #11cbe8b0;
+
     }
 
     .info-video {
@@ -2611,9 +2612,9 @@ body {
 
     .lines-mobile img {
         position: absolute;
-        left: 13.5vw !important;
+        left: 14.5vw !important;
         width: 15vw !important;
-        top: 5vh;
+        top: 3vh;
         z-index: -1;
         height: 95%;
 
@@ -2624,6 +2625,7 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-left: 4vw;
 
     }
 
@@ -2675,7 +2677,7 @@ body {
         /* background: #ffffff; */
         position: relative;
         display: flex;
-        height: 45vh;
+        height: 50vh;
         justify-content: center;
         align-items: center;
     }
@@ -2849,6 +2851,13 @@ body {
     .about{
         margin-top: 10vw;
         margin-bottom: 15vw;
+    }
+    #myVideo{
+        position: absolute;
+        z-index: -2;
+        width: 100vw;
+        height: 50%;
+
     }
 
 }
