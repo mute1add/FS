@@ -442,6 +442,7 @@ $(function () {
     }).trigger('scroll');
 
 })
+
 $(document).ready(function () {
 var spoilers = $(".spoiler");
     spoilers.each(function () {
@@ -450,9 +451,11 @@ var spoilers = $(".spoiler");
             if ($(this).hasClass("spoiler-open-btn")) {
                 $(this).removeClass("spoiler-open-btn").addClass("spoiler-close-btn");
                 spoiler.find(".spoiler-body").slideUp(1000);
+                spoiler.find(".vertical").css({"display": "block"});
             } else {
                 $(this).removeClass("spoiler-close-btn").addClass("spoiler-open-btn");
                 spoiler.find(".spoiler-body").slideDown(1000);
+                spoiler.find(".vertical").css({"display": "none"});
             }
         });
     });
@@ -508,4 +511,7 @@ var spoilers = $(".spoiler");
             }
         }
     }
+    $('.circle-plus').on('click', function(){
+        $(this).toggleClass('opened');
+    })
 });

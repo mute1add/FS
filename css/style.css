@@ -2077,14 +2077,6 @@ body {
         margin-right: 20px;
     }
 
-    .spoiler-open-btn {
-        animation: 1s open-spoiler ease-out;
-    }
-
-    .spoiler-close-btn {
-        animation: 1s close-spoiler ease-out;
-    }
-
     @keyframes open-spoiler {
         from {
             transform: rotate(0deg);
@@ -2862,6 +2854,9 @@ body {
         height: 42.7vh;
         object-fit: cover;
 
+    }
+    .remove{
+        display: none;
     }
 
 }
