@@ -2105,7 +2105,7 @@ body {
     }
 
     .spoiler-body {
-        padding: 5px 20px;
+        padding: 5px 25px;
         font-size: 15px;
         background: white;
 
@@ -2124,8 +2124,8 @@ body {
     }
 
     .right-side h1 {
-        font-size: 4.5vw;
-        width: 85vw;
+        font-size: 4vw;
+        width: 80vw;
         /* display: flex; */
         /* justify-content: center; */
         align-items: center;
@@ -2143,7 +2143,7 @@ body {
         background-color: #00a2e8;
         border: none;
         margin-bottom: 7vw;
-        margin-top: 6vw;
+        margin-top: 4vw;
     }
     .spoiler-body-title {
         color: #000000;
@@ -2166,7 +2166,7 @@ body {
     }
 
     .right-side-small {
-        font-size: 4vw;
+        font-size: 3.5vw;
         color: black;
         font-weight: bold;
     }
@@ -2444,7 +2444,7 @@ body {
     }
 
     .know-more-btn {
-        margin-top: 4vw;
+        margin-top: 5.5vw;
         margin-bottom: 11vw;
         font-size: 3vw;
         float: right;
@@ -2859,7 +2859,8 @@ body {
         position: absolute;
         z-index: -2;
         width: 100vw;
-        height: 50%;
+        height: 42.7vh;
+        object-fit: cover;
 
     }
 
