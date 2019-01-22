@@ -2096,7 +2096,7 @@ body {
     }
 
     .spoiler-body {
-        padding: 5px 25px;
+        padding: 15px 25px;
         font-size: 15px;
         background: white;
 
@@ -2124,7 +2124,7 @@ body {
         text-align: center;
         padding-top: 3.5vw;
         padding-bottom: 3.5vw;
-
+        margin-top: 10px;
     }
     html{
         overflow-x: hidden;
