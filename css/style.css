@@ -311,7 +311,7 @@ body {
         height: 70vh;
         overflow: hidden;
         width: 100vw;
-        background-image: url(img/Layer3.png);
+        background-image: url(../img/Layer3.png);
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -2548,7 +2548,7 @@ body {
         background: #11cbe8b0;
         overflow: hidden;
         position: relative;
-        background-image: url(img/Layer2.png);
+        background-image: url(../img/Layer2.png);
     background-repeat: no-repeat;
     background-size: cover;
 
