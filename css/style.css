@@ -364,7 +364,7 @@ body {
     }
 
     .video-shadow {
-        background: rgba(105, 216, 255, 0.81);
+       
         width: 100vw;
         height: 70vh;
         z-index: 1;
