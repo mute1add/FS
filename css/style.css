@@ -2548,6 +2548,9 @@ body {
         background: #11cbe8b0;
         overflow: hidden;
         position: relative;
+        background-image: url(img/Layer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     }
 
