@@ -311,6 +311,9 @@ body {
         height: 70vh;
         overflow: hidden;
         width: 100vw;
+        background-image: url(img/Layer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
     video {
