@@ -2582,6 +2582,7 @@ body {
         width: 85%;
         margin-left: 4vw;
         margin-top: 2.8vw;
+            text-align: left;
     }
 
     .info-video p {
