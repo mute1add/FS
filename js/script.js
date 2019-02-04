@@ -380,7 +380,7 @@
 //
 // })
 let prevDropOpened = null;
-$(".circle-elements").on("click", function (event) {
+$(".spoiler-header").on("click", function (event) {
     console.log(event.target);
     console.log(document.getElementById(event.target.getAttribute('dropid')));
     let dropdown = $(`#${event.target.getAttribute('dropid')}`);
