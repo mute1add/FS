@@ -2056,7 +2056,7 @@ body {
 
     .spoiler-title {
         width: 45vw;
-        font-size: 3.065vw;
+        font-size: 3.8vw;
         color: black;
         font-weight: bolder;
     }
@@ -2876,7 +2876,7 @@ body {
     .header-content h1 {
         font-size: 6vw;
         margin: 0;
-        letter-spacing: -.1vw;
+        letter-spacing: -0.4vw;
     }
 
 }
