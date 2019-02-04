@@ -380,7 +380,7 @@
 //
 // })
 let prevDropOpened = null;
-$(".spoiler-header").on("click", function (event) {
+$(".circle").on("click", function (event) {
     console.log(event.target);
     console.log(document.getElementById(event.target.getAttribute('dropid')));
     let dropdown = $(`#${event.target.getAttribute('dropid')}`);
@@ -447,7 +447,7 @@ $(document).ready(function () {
 var spoilers = $(".spoiler");
     spoilers.each(function () {
         var spoiler = $(this);
-        spoiler.find(".spoiler-expand-btn").click(function () {
+        spoiler.click(function () {
             if ($(this).hasClass("spoiler-open-btn")) {
                 $(this).removeClass("spoiler-open-btn").addClass("spoiler-close-btn");
                 spoiler.find(".spoiler-body").slideUp(1000);
