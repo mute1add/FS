@@ -199,7 +199,7 @@ body {
 
     .number-of-items-in-bag {
         position: relative;
-        bottom: -10px;
+        bottom: -11px;
         right: -10px;
         display: inline-flex;
         background-color: rgb(42, 118, 122);
@@ -214,6 +214,7 @@ body {
         align-items: center;
         text-align: center;
         justify-content: center;
+            padding: 0 0 1px;
     }
 
     .heart-icon {
