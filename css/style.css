@@ -68,7 +68,7 @@ body {
     }
     .menu li:nth-child(5) a, .menu li:nth-child(6) a
     {
-        padding: 12px 8px;
+        padding: 12px 7px 12px 0;
     }
 
     @media screen and (min-width: 1000px) {
@@ -148,7 +148,7 @@ body {
     }
 
     .menu li:nth-child(7) {
-        margin: 0 9px 0 5px;
+        margin: 0 13px 0 5px;
     }
 
     .menu li:nth-child(9) {
