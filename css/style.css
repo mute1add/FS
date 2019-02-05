@@ -87,7 +87,7 @@ body {
         }
 
         .menu li:nth-child(-n + 3) {
-            padding: 12px 20px;
+            padding: 12px 15px;
         }
 
         .menu li:nth-child(5), .menu li:nth-child(6), .menu li:nth-child(8) {
@@ -152,7 +152,7 @@ body {
     }
 
     .menu li:nth-child(9) {
-        margin: 0 0px 0 3px;
+        margin: 0 1px 0 3px;
     }
 
     .logo {
@@ -169,7 +169,7 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         background-position-y: center;
-        margin-left: 10px;
+        margin-left: 8px;
     }
 
     @media screen and (max-width: 1010px) {
