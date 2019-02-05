@@ -1585,7 +1585,7 @@ body {
 
     .number-of-items-in-bag {
         position: relative;
-        bottom: -4px;
+        bottom: -10px;
         right: -10px;
         display: inline-flex;
         background-color: rgb(42, 118, 122);
