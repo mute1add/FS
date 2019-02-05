@@ -55,6 +55,7 @@ body {
     .menu li a {
         text-decoration: none;
         cursor: pointer;
+        font-weight: 600;
     }
 
     .menu li:nth-child(-n + 3) a {
