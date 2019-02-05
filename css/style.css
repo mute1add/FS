@@ -64,6 +64,7 @@ body {
 
     .menu li:nth-child(5) a, .menu li:nth-child(6) a, .menu li:nth-child(8) a, .menu li:nth-child(10) a {
         color: #282828;
+        letter-spacing: 0.6px;
     }
 
     @media screen and (min-width: 1000px) {
@@ -130,6 +131,7 @@ body {
 
     .menu li:nth-of-type(-n+3) a {
         font-weight: bold;
+        letter-spacing: 0.6px;
     }
 
     .menu-separator {
@@ -138,11 +140,11 @@ body {
     }
 
     .menu li:nth-child(4) {
-        margin: 0 13px 0 0px;
+        margin: 0 14px 0 0px;
     }
 
     .menu li:nth-child(7) {
-        margin: 0 10px 0 5px;
+        margin: 0 12px 0 5px;
     }
 
     .menu li:nth-child(9) {
