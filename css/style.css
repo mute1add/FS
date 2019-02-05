@@ -1568,11 +1568,11 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         background-position-y: center;
-        margin-left: 11px;
+        margin-left: 3px;
     }
 
     .bag-icon {
-        padding: 4px 3px;
+        padding: 4px 7px;
         background-position-x: center;
         background-image: url("../img/bag.png");
     }
@@ -1586,7 +1586,7 @@ body {
     .number-of-items-in-bag {
         position: relative;
         bottom: -10px;
-        right: -10px;
+        right: -7px;
         display: inline-flex;
         background-color: rgb(42, 118, 122);
         color: #ffffff;
