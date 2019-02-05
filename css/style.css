@@ -66,6 +66,10 @@ body {
         color: #282828;
         letter-spacing: 0.6px;
     }
+    .menu li:nth-child(5) a, .menu li:nth-child(6) a
+    {
+        padding: 12px 8px;
+    }
 
     @media screen and (min-width: 1000px) {
         .heart-icon {
@@ -111,7 +115,7 @@ body {
         }
 
         .menu li:nth-child(5), .menu li:nth-child(6), .menu li:nth-child(8) {
-            padding: 12px 2px;
+            padding: 12px 0px;
         }
     }
 
@@ -144,7 +148,7 @@ body {
     }
 
     .menu li:nth-child(7) {
-        margin: 0 10px 0 5px;
+        margin: 0 9px 0 5px;
     }
 
     .menu li:nth-child(9) {
