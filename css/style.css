@@ -94,7 +94,7 @@ body {
             padding: 12px 15px;
         }
         .menu li:nth-child(-n + 1) {
-    padding: 12px 27px;
+    padding: 12px 25px;
 }
         .menu li:nth-child(3) {
     padding: 12px 19px 12px 25px;
