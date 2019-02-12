@@ -487,7 +487,9 @@ body {
     svg.radial-progress circle.complete {
         stroke-dasharray: 219.91148575129; /* Circumference */
     }
-
+svg.radial-progress:nth-of-type(6n+1) circle {
+    stroke: rgba(153, 201, 248, 1);
+}
     svg.radial-progress text {
         text-anchor: middle;
         font-size: 1.3vw;
