@@ -498,22 +498,7 @@ svg.radial-progress:nth-of-type(6n+1) circle {
         transform:matrix(0, 1, -1, 0, 77, 0);
 
     }
-        @media screen and (max-width: 1600px)
-svg.radial-progress text {
-    transform: matrix(0, 1, -1, 0, 78, 0)!important;
-}
-}
-    @media screen and (max-width: 1024px)
-svg.radial-progress text {
-    transform: matrix(0, 1, -1, 0, 79, 0)!important;
-    font-size: 1.8vw!important;
-}
-}
-      @media screen and (max-width: 1440px)
-svg.radial-p rogress text {
-        font-size: 1.4vw!important;
-}
-}
+
     /*** COLORS ***/
     /* Primary */
     svg.radial-progress:nth-of-type(6n+1) circle {
@@ -2919,8 +2904,19 @@ svg.radial-p rogress text {
 
 @media (max-width: 1024px) {
     .radial-progress text {
-        transform: matrix(0, 1, -1, 0, 78, 0);
-        font-size: 1.8vw;
+        transform: matrix(0, 1, -1, 0, 79, 0)!important;
+        font-size: 1.8vw!important;
     }
 
+}
+        @media screen and (max-width: 1600px)
+svg.radial-progress text {
+    transform: matrix(0, 1, -1, 0, 78, 0)!important;
+}
+}
+
+      @media screen and (max-width: 1440px)
+svg.radial-p rogress text {
+        font-size: 1.4vw!important;
+}
 }
