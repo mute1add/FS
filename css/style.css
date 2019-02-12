@@ -2909,13 +2909,13 @@ svg.radial-progress:nth-of-type(6n+1) circle {
     }
 
 }
-        @media screen and (max-width: 1600px)
+        @media (max-width: 1600px)
 .radial-progress text {
     transform: matrix(0, 1, -1, 0, 78, 0)!important;
 }
 }
 
-      @media screen and (max-width: 1440px)
+      @media (max-width: 1440px)
 .radial-progress text {
         font-size: 1.4vw!important;
 }
