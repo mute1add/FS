@@ -490,11 +490,27 @@ body {
 
     svg.radial-progress text {
         text-anchor: middle;
-        font-size: 1.4vw;
+        font-size: 1.3vw;
         font-weight: bolder;
+        transform:matrix(0, 1, -1, 0, 77, 0);
 
     }
-
+    @media (max-width: 1600px)
+svg.radial-progress text {
+    transform: matrix(0, 1, -1, 0, 78, 0)!important;
+}
+}
+    @media (max-width: 1024px)
+svg.radial-progress text {
+    transform: matrix(0, 1, -1, 0, 79, 0)!important;
+    font-size: 1.8vw!important;
+}
+}
+      @media (max-width: 1440px)
+svg.radial-progress text {
+        font-size: 1.4vw!important;
+}
+}
     /*** COLORS ***/
     /* Primary */
     svg.radial-progress:nth-of-type(6n+1) circle {
