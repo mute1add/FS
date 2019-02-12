@@ -12,7 +12,9 @@ body {
     font-family: Calibri;
     src: url("../v1/css/fonts/Calibri.ttf") format('ttf');
 }
-    @media screen and (max-width: 1600px)
+
+@media screen and (min-width: 769px) {
+        @media screen and (max-width: 1600px)
 svg.radial-progress text {
     transform: matrix(0, 1, -1, 0, 78, 0)!important;
 }
@@ -28,7 +30,6 @@ svg.radial-p rogress text {
         font-size: 1.4vw!important;
 }
 }
-@media screen and (min-width: 769px) {
     .mobile {
         display: none;
     }
